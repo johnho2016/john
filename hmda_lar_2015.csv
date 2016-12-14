@@ -1,0 +1,587 @@
+count,state_name,loan_type_name,loan_purpose_name
+1465,Alabama,Routine Inspection,OAI
+141,Alabama,OAI Follow Up,OAI
+1,Alabama,Consumer Complaint Follow Up,OAI
+124,Alabama,For-Cause,OAI
+23140,Alabama,Routine Inspection,VAI
+11343,Alabama,OAI Follow Up,VAI
+3106,Alabama,Consumer Complaint Follow Up,VAI
+5595,Alabama,For-Cause,VAI
+22776,Alabama,Routine Inspection,NAI
+5551,Alabama,OAI Follow Up,NAI
+29,Alabama,Consumer Complaint Follow Up,NAI
+5348,Alabama,For-Cause,NAI
+264,Alaska,Routine Inspection,OAI
+39,Alaska,OAI Follow Up,OAI
+48,Alaska,For-Cause,OAI
+3827,Alaska,Routine Inspection,VAI
+2179,Alaska,OAI Follow Up,VAI
+427,Alaska,Consumer Complaint Follow Up,VAI
+2431,Alaska,For-Cause,VAI
+3469,Alaska,Routine Inspection,NAI
+659,Alaska,OAI Follow Up,NAI
+2,Alaska,Consumer Complaint Follow Up,NAI
+1204,Alaska,For-Cause,NAI
+2468,Arizona,Routine Inspection,OAI
+400,Arizona,OAI Follow Up,OAI
+367,Arizona,For-Cause,OAI
+44273,Arizona,Routine Inspection,VAI
+30906,Arizona,OAI Follow Up,VAI
+1556,Arizona,Consumer Complaint Follow Up,VAI
+11544,Arizona,For-Cause,VAI
+50369,Arizona,Routine Inspection,NAI
+17483,Arizona,OAI Follow Up,NAI
+37,Arizona,Consumer Complaint Follow Up,NAI
+11030,Arizona,For-Cause,NAI
+1330,Arkansas,Routine Inspection,OAI
+45,Arkansas,OAI Follow Up,OAI
+2,Arkansas,Consumer Complaint Follow Up,OAI
+71,Arkansas,For-Cause,OAI
+14447,Arkansas,Routine Inspection,VAI
+6847,Arkansas,OAI Follow Up,VAI
+2818,Arkansas,Consumer Complaint Follow Up,VAI
+2997,Arkansas,For-Cause,VAI
+12048,Arkansas,Routine Inspection,NAI
+2243,Arkansas,OAI Follow Up,NAI
+39,Arkansas,Consumer Complaint Follow Up,NAI
+2106,Arkansas,For-Cause,NAI
+26275,California,Routine Inspection,OAI
+1888,California,OAI Follow Up,OAI
+1542,California,For-Cause,OAI
+190653,California,Routine Inspection,VAI
+78368,California,OAI Follow Up,VAI
+2589,California,Consumer Complaint Follow Up,VAI
+25147,California,For-Cause,VAI
+422734,California,Routine Inspection,NAI
+60813,California,OAI Follow Up,NAI
+44,California,Consumer Complaint Follow Up,NAI
+37852,California,For-Cause,NAI
+4194,Colorado,Routine Inspection,OAI
+412,Colorado,OAI Follow Up,OAI
+462,Colorado,For-Cause,OAI
+57857,Colorado,Routine Inspection,VAI
+20873,Colorado,OAI Follow Up,VAI
+1448,Colorado,Consumer Complaint Follow Up,VAI
+12028,Colorado,For-Cause,VAI
+73412,Colorado,Routine Inspection,NAI
+14045,Colorado,OAI Follow Up,NAI
+15,Colorado,Consumer Complaint Follow Up,NAI
+11654,Colorado,For-Cause,NAI
+2176,Connecticut,Routine Inspection,OAI
+115,Connecticut,OAI Follow Up,OAI
+32,Connecticut,For-Cause,OAI
+20093,Connecticut,Routine Inspection,VAI
+7116,Connecticut,OAI Follow Up,VAI
+583,Connecticut,Consumer Complaint Follow Up,VAI
+1502,Connecticut,For-Cause,VAI
+22801,Connecticut,Routine Inspection,NAI
+4077,Connecticut,OAI Follow Up,NAI
+35,Connecticut,Consumer Complaint Follow Up,NAI
+1191,Connecticut,For-Cause,NAI
+363,Delaware,Routine Inspection,OAI
+19,Delaware,OAI Follow Up,OAI
+1,Delaware,Consumer Complaint Follow Up,OAI
+33,Delaware,For-Cause,OAI
+5177,Delaware,Routine Inspection,VAI
+2908,Delaware,OAI Follow Up,VAI
+619,Delaware,Consumer Complaint Follow Up,VAI
+1138,Delaware,For-Cause,VAI
+5644,Delaware,Routine Inspection,NAI
+1750,Delaware,OAI Follow Up,NAI
+14,Delaware,Consumer Complaint Follow Up,NAI
+1112,Delaware,For-Cause,NAI
+302,District of Columbia,Routine Inspection,OAI
+25,District of Columbia,OAI Follow Up,OAI
+5,District of Columbia,For-Cause,OAI
+5809,District of Columbia,Routine Inspection,VAI
+696,District of Columbia,OAI Follow Up,VAI
+342,District of Columbia,For-Cause,VAI
+6212,District of Columbia,Routine Inspection,NAI
+611,District of Columbia,OAI Follow Up,NAI
+288,District of Columbia,For-Cause,NAI
+5427,Florida,Routine Inspection,OAI
+723,Florida,OAI Follow Up,OAI
+1,Florida,Consumer Complaint Follow Up,OAI
+607,Florida,For-Cause,OAI
+123922,Florida,Routine Inspection,VAI
+62730,Florida,OAI Follow Up,VAI
+3437,Florida,Consumer Complaint Follow Up,VAI
+28419,Florida,For-Cause,VAI
+91916,Florida,Routine Inspection,NAI
+18171,Florida,OAI Follow Up,NAI
+76,Florida,Consumer Complaint Follow Up,NAI
+17782,Florida,For-Cause,NAI
+2622,Georgia,Routine Inspection,OAI
+402,Georgia,OAI Follow Up,OAI
+249,Georgia,For-Cause,OAI
+58166,Georgia,Routine Inspection,VAI
+33711,Georgia,OAI Follow Up,VAI
+3706,Georgia,Consumer Complaint Follow Up,VAI
+14105,Georgia,For-Cause,VAI
+57269,Georgia,Routine Inspection,NAI
+14817,Georgia,OAI Follow Up,NAI
+37,Georgia,Consumer Complaint Follow Up,NAI
+11194,Georgia,For-Cause,NAI
+1083,Hawaii,Routine Inspection,OAI
+53,Hawaii,OAI Follow Up,OAI
+70,Hawaii,For-Cause,OAI
+5914,Hawaii,Routine Inspection,VAI
+572,Hawaii,OAI Follow Up,VAI
+430,Hawaii,Consumer Complaint Follow Up,VAI
+2353,Hawaii,For-Cause,VAI
+8243,Hawaii,Routine Inspection,NAI
+567,Hawaii,OAI Follow Up,NAI
+14,Hawaii,Consumer Complaint Follow Up,NAI
+2384,Hawaii,For-Cause,NAI
+792,Idaho,Routine Inspection,OAI
+72,Idaho,OAI Follow Up,OAI
+82,Idaho,For-Cause,OAI
+13734,Idaho,Routine Inspection,VAI
+6801,Idaho,OAI Follow Up,VAI
+1228,Idaho,Consumer Complaint Follow Up,VAI
+2940,Idaho,For-Cause,VAI
+12084,Idaho,Routine Inspection,NAI
+2539,Idaho,OAI Follow Up,NAI
+20,Idaho,Consumer Complaint Follow Up,NAI
+2181,Idaho,For-Cause,NAI
+5833,Illinois,Routine Inspection,OAI
+250,Illinois,OAI Follow Up,OAI
+125,Illinois,For-Cause,OAI
+85793,Illinois,Routine Inspection,VAI
+27560,Illinois,OAI Follow Up,VAI
+2931,Illinois,Consumer Complaint Follow Up,VAI
+6223,Illinois,For-Cause,VAI
+98843,Illinois,Routine Inspection,NAI
+14104,Illinois,OAI Follow Up,NAI
+39,Illinois,Consumer Complaint Follow Up,NAI
+4733,Illinois,For-Cause,NAI
+4440,Indiana,Routine Inspection,OAI
+173,Indiana,OAI Follow Up,OAI
+1,Indiana,Consumer Complaint Follow Up,OAI
+132,Indiana,For-Cause,OAI
+44116,Indiana,Routine Inspection,VAI
+20995,Indiana,OAI Follow Up,VAI
+4704,Indiana,Consumer Complaint Follow Up,VAI
+5212,Indiana,For-Cause,VAI
+42817,Indiana,Routine Inspection,NAI
+10105,Indiana,OAI Follow Up,NAI
+62,Indiana,Consumer Complaint Follow Up,NAI
+4428,Indiana,For-Cause,NAI
+2367,Iowa,Routine Inspection,OAI
+51,Iowa,OAI Follow Up,OAI
+53,Iowa,For-Cause,OAI
+25237,Iowa,Routine Inspection,VAI
+5539,Iowa,OAI Follow Up,VAI
+1852,Iowa,Consumer Complaint Follow Up,VAI
+2355,Iowa,For-Cause,VAI
+23019,Iowa,Routine Inspection,NAI
+2405,Iowa,OAI Follow Up,NAI
+32,Iowa,Consumer Complaint Follow Up,NAI
+1553,Iowa,For-Cause,NAI
+1682,Kansas,Routine Inspection,OAI
+51,Kansas,OAI Follow Up,OAI
+63,Kansas,For-Cause,OAI
+18966,Kansas,Routine Inspection,VAI
+6978,Kansas,OAI Follow Up,VAI
+1059,Kansas,Consumer Complaint Follow Up,VAI
+3052,Kansas,For-Cause,VAI
+16322,Kansas,Routine Inspection,NAI
+3106,Kansas,OAI Follow Up,NAI
+13,Kansas,Consumer Complaint Follow Up,NAI
+2023,Kansas,For-Cause,NAI
+2069,Kentucky,Routine Inspection,OAI
+84,Kentucky,OAI Follow Up,OAI
+92,Kentucky,For-Cause,OAI
+24096,Kentucky,Routine Inspection,VAI
+9907,Kentucky,OAI Follow Up,VAI
+3508,Kentucky,Consumer Complaint Follow Up,VAI
+3632,Kentucky,For-Cause,VAI
+23321,Kentucky,Routine Inspection,NAI
+4921,Kentucky,OAI Follow Up,NAI
+41,Kentucky,Consumer Complaint Follow Up,NAI
+3137,Kentucky,For-Cause,NAI
+2021,Louisiana,Routine Inspection,OAI
+102,Louisiana,OAI Follow Up,OAI
+80,Louisiana,For-Cause,OAI
+23067,Louisiana,Routine Inspection,VAI
+10569,Louisiana,OAI Follow Up,VAI
+4095,Louisiana,Consumer Complaint Follow Up,VAI
+4041,Louisiana,For-Cause,VAI
+21753,Louisiana,Routine Inspection,NAI
+4076,Louisiana,OAI Follow Up,NAI
+20,Louisiana,Consumer Complaint Follow Up,NAI
+2842,Louisiana,For-Cause,NAI
+1246,Maine,Routine Inspection,OAI
+14,Maine,OAI Follow Up,OAI
+39,Maine,For-Cause,OAI
+6995,Maine,Routine Inspection,VAI
+2117,Maine,OAI Follow Up,VAI
+1580,Maine,Consumer Complaint Follow Up,VAI
+1134,Maine,For-Cause,VAI
+7792,Maine,Routine Inspection,NAI
+950,Maine,OAI Follow Up,NAI
+12,Maine,Consumer Complaint Follow Up,NAI
+945,Maine,For-Cause,NAI
+2180,Maryland,Routine Inspection,OAI
+347,Maryland,OAI Follow Up,OAI
+190,Maryland,For-Cause,OAI
+32990,Maryland,Routine Inspection,VAI
+19290,Maryland,OAI Follow Up,VAI
+2236,Maryland,Consumer Complaint Follow Up,VAI
+7672,Maryland,For-Cause,VAI
+45905,Maryland,Routine Inspection,NAI
+13175,Maryland,OAI Follow Up,NAI
+20,Maryland,Consumer Complaint Follow Up,NAI
+8167,Maryland,For-Cause,NAI
+6794,Massachusetts,Routine Inspection,OAI
+199,Massachusetts,OAI Follow Up,OAI
+130,Massachusetts,For-Cause,OAI
+51136,Massachusetts,Routine Inspection,VAI
+10884,Massachusetts,OAI Follow Up,VAI
+821,Massachusetts,Consumer Complaint Follow Up,VAI
+2728,Massachusetts,For-Cause,VAI
+62371,Massachusetts,Routine Inspection,NAI
+6551,Massachusetts,OAI Follow Up,NAI
+17,Massachusetts,Consumer Complaint Follow Up,NAI
+2625,Massachusetts,For-Cause,NAI
+5566,Michigan,Routine Inspection,OAI
+258,Michigan,OAI Follow Up,OAI
+148,Michigan,For-Cause,OAI
+63760,Michigan,Routine Inspection,VAI
+26499,Michigan,OAI Follow Up,VAI
+5702,Michigan,Consumer Complaint Follow Up,VAI
+5717,Michigan,For-Cause,VAI
+76691,Michigan,Routine Inspection,NAI
+12959,Michigan,OAI Follow Up,NAI
+130,Michigan,Consumer Complaint Follow Up,NAI
+5026,Michigan,For-Cause,NAI
+3459,Minnesota,Routine Inspection,OAI
+146,Minnesota,OAI Follow Up,OAI
+1,Minnesota,Consumer Complaint Follow Up,OAI
+167,Minnesota,For-Cause,OAI
+47534,Minnesota,Routine Inspection,VAI
+16659,Minnesota,OAI Follow Up,VAI
+3351,Minnesota,Consumer Complaint Follow Up,VAI
+4465,Minnesota,For-Cause,VAI
+49943,Minnesota,Routine Inspection,NAI
+6657,Minnesota,OAI Follow Up,NAI
+44,Minnesota,Consumer Complaint Follow Up,NAI
+3793,Minnesota,For-Cause,NAI
+873,Mississippi,Routine Inspection,OAI
+27,Mississippi,OAI Follow Up,OAI
+1,Mississippi,Consumer Complaint Follow Up,OAI
+32,Mississippi,For-Cause,OAI
+9869,Mississippi,Routine Inspection,VAI
+5182,Mississippi,OAI Follow Up,VAI
+2187,Mississippi,Consumer Complaint Follow Up,VAI
+2160,Mississippi,For-Cause,VAI
+11317,Mississippi,Routine Inspection,NAI
+2275,Mississippi,OAI Follow Up,NAI
+31,Mississippi,Consumer Complaint Follow Up,NAI
+1601,Mississippi,For-Cause,NAI
+3272,Missouri,Routine Inspection,OAI
+108,Missouri,OAI Follow Up,OAI
+3,Missouri,Consumer Complaint Follow Up,OAI
+173,Missouri,For-Cause,OAI
+38087,Missouri,Routine Inspection,VAI
+16670,Missouri,OAI Follow Up,VAI
+4401,Missouri,Consumer Complaint Follow Up,VAI
+6025,Missouri,For-Cause,VAI
+40813,Missouri,Routine Inspection,NAI
+9393,Missouri,OAI Follow Up,NAI
+93,Missouri,Consumer Complaint Follow Up,NAI
+4654,Missouri,For-Cause,NAI
+664,Montana,Routine Inspection,OAI
+63,Montana,OAI Follow Up,OAI
+101,Montana,For-Cause,OAI
+6723,Montana,Routine Inspection,VAI
+2155,Montana,OAI Follow Up,VAI
+1016,Montana,Consumer Complaint Follow Up,VAI
+1613,Montana,For-Cause,VAI
+6389,Montana,Routine Inspection,NAI
+858,Montana,OAI Follow Up,NAI
+10,Montana,Consumer Complaint Follow Up,NAI
+1115,Montana,For-Cause,NAI
+1358,Nebraska,Routine Inspection,OAI
+27,Nebraska,OAI Follow Up,OAI
+85,Nebraska,For-Cause,OAI
+13642,Nebraska,Routine Inspection,VAI
+5063,Nebraska,OAI Follow Up,VAI
+669,Nebraska,Consumer Complaint Follow Up,VAI
+2471,Nebraska,For-Cause,VAI
+12257,Nebraska,Routine Inspection,NAI
+1866,Nebraska,OAI Follow Up,NAI
+12,Nebraska,Consumer Complaint Follow Up,NAI
+1467,Nebraska,For-Cause,NAI
+1253,Nevada,Routine Inspection,OAI
+259,Nevada,OAI Follow Up,OAI
+214,Nevada,For-Cause,OAI
+16555,Nevada,Routine Inspection,VAI
+13994,Nevada,OAI Follow Up,VAI
+603,Nevada,Consumer Complaint Follow Up,VAI
+5596,Nevada,For-Cause,VAI
+20374,Nevada,Routine Inspection,NAI
+6734,Nevada,OAI Follow Up,NAI
+10,Nevada,Consumer Complaint Follow Up,NAI
+4903,Nevada,For-Cause,NAI
+847,New Hampshire,Routine Inspection,OAI
+25,New Hampshire,OAI Follow Up,OAI
+38,New Hampshire,For-Cause,OAI
+9017,New Hampshire,Routine Inspection,VAI
+3532,New Hampshire,OAI Follow Up,VAI
+695,New Hampshire,Consumer Complaint Follow Up,VAI
+1244,New Hampshire,For-Cause,VAI
+9741,New Hampshire,Routine Inspection,NAI
+1740,New Hampshire,OAI Follow Up,NAI
+13,New Hampshire,Consumer Complaint Follow Up,NAI
+951,New Hampshire,For-Cause,NAI
+3658,New Jersey,Routine Inspection,OAI
+439,New Jersey,OAI Follow Up,OAI
+1,New Jersey,Consumer Complaint Follow Up,OAI
+82,New Jersey,For-Cause,OAI
+49019,New Jersey,Routine Inspection,VAI
+17691,New Jersey,OAI Follow Up,VAI
+775,New Jersey,Consumer Complaint Follow Up,VAI
+2704,New Jersey,For-Cause,VAI
+56710,New Jersey,Routine Inspection,NAI
+13700,New Jersey,OAI Follow Up,NAI
+20,New Jersey,Consumer Complaint Follow Up,NAI
+2883,New Jersey,For-Cause,NAI
+687,New Mexico,Routine Inspection,OAI
+62,New Mexico,OAI Follow Up,OAI
+75,New Mexico,For-Cause,OAI
+8279,New Mexico,Routine Inspection,VAI
+5042,New Mexico,OAI Follow Up,VAI
+294,New Mexico,Consumer Complaint Follow Up,VAI
+2677,New Mexico,For-Cause,VAI
+8444,New Mexico,Routine Inspection,NAI
+2820,New Mexico,OAI Follow Up,NAI
+6,New Mexico,Consumer Complaint Follow Up,NAI
+2308,New Mexico,For-Cause,NAI
+6103,New York,Routine Inspection,OAI
+224,New York,OAI Follow Up,OAI
+1,New York,Consumer Complaint Follow Up,OAI
+106,New York,For-Cause,OAI
+80536,New York,Routine Inspection,VAI
+23738,New York,OAI Follow Up,VAI
+1781,New York,Consumer Complaint Follow Up,VAI
+4825,New York,For-Cause,VAI
+54420,New York,Routine Inspection,NAI
+10156,New York,OAI Follow Up,NAI
+5,New York,Consumer Complaint Follow Up,NAI
+2740,New York,For-Cause,NAI
+3429,North Carolina,Routine Inspection,OAI
+296,North Carolina,OAI Follow Up,OAI
+1,North Carolina,Consumer Complaint Follow Up,OAI
+320,North Carolina,For-Cause,OAI
+72388,North Carolina,Routine Inspection,VAI
+19350,North Carolina,OAI Follow Up,VAI
+5997,North Carolina,Consumer Complaint Follow Up,VAI
+14863,North Carolina,For-Cause,VAI
+57506,North Carolina,Routine Inspection,NAI
+10321,North Carolina,OAI Follow Up,NAI
+79,North Carolina,Consumer Complaint Follow Up,NAI
+11964,North Carolina,For-Cause,NAI
+705,North Dakota,Routine Inspection,OAI
+15,North Dakota,OAI Follow Up,OAI
+39,North Dakota,For-Cause,OAI
+5804,North Dakota,Routine Inspection,VAI
+1929,North Dakota,OAI Follow Up,VAI
+362,North Dakota,Consumer Complaint Follow Up,VAI
+1009,North Dakota,For-Cause,VAI
+4666,North Dakota,Routine Inspection,NAI
+716,North Dakota,OAI Follow Up,NAI
+4,North Dakota,Consumer Complaint Follow Up,NAI
+571,North Dakota,For-Cause,NAI
+5415,Ohio,Routine Inspection,OAI
+223,Ohio,OAI Follow Up,OAI
+8,Ohio,Consumer Complaint Follow Up,OAI
+215,Ohio,For-Cause,OAI
+70010,Ohio,Routine Inspection,VAI
+30276,Ohio,OAI Follow Up,VAI
+4522,Ohio,Consumer Complaint Follow Up,VAI
+8598,Ohio,For-Cause,VAI
+67456,Ohio,Routine Inspection,NAI
+14423,Ohio,OAI Follow Up,NAI
+40,Ohio,Consumer Complaint Follow Up,NAI
+6155,Ohio,For-Cause,NAI
+2036,Oklahoma,Routine Inspection,OAI
+102,Oklahoma,OAI Follow Up,OAI
+2,Oklahoma,Consumer Complaint Follow Up,OAI
+123,Oklahoma,For-Cause,OAI
+19057,Oklahoma,Routine Inspection,VAI
+11105,Oklahoma,OAI Follow Up,VAI
+1728,Oklahoma,Consumer Complaint Follow Up,VAI
+4808,Oklahoma,For-Cause,VAI
+14869,Oklahoma,Routine Inspection,NAI
+3168,Oklahoma,OAI Follow Up,NAI
+19,Oklahoma,Consumer Complaint Follow Up,NAI
+2606,Oklahoma,For-Cause,NAI
+3002,Oregon,Routine Inspection,OAI
+206,Oregon,OAI Follow Up,OAI
+280,Oregon,For-Cause,OAI
+33453,Oregon,Routine Inspection,VAI
+11154,Oregon,OAI Follow Up,VAI
+2164,Oregon,Consumer Complaint Follow Up,VAI
+5459,Oregon,For-Cause,VAI
+35308,Oregon,Routine Inspection,NAI
+4852,Oregon,OAI Follow Up,NAI
+27,Oregon,Consumer Complaint Follow Up,NAI
+5153,Oregon,For-Cause,NAI
+10791,Pennsylvania,Routine Inspection,OAI
+345,Pennsylvania,OAI Follow Up,OAI
+188,Pennsylvania,For-Cause,OAI
+68828,Pennsylvania,Routine Inspection,VAI
+28247,Pennsylvania,OAI Follow Up,VAI
+4322,Pennsylvania,Consumer Complaint Follow Up,VAI
+7029,Pennsylvania,For-Cause,VAI
+70461,Pennsylvania,Routine Inspection,NAI
+13038,Pennsylvania,OAI Follow Up,NAI
+25,Pennsylvania,Consumer Complaint Follow Up,NAI
+5996,Pennsylvania,For-Cause,NAI
+383,Puerto Rico,Routine Inspection,OAI
+125,Puerto Rico,OAI Follow Up,OAI
+27,Puerto Rico,For-Cause,OAI
+2623,Puerto Rico,Routine Inspection,VAI
+5024,Puerto Rico,OAI Follow Up,VAI
+1411,Puerto Rico,Consumer Complaint Follow Up,VAI
+647,Puerto Rico,For-Cause,VAI
+3993,Puerto Rico,Routine Inspection,NAI
+3699,Puerto Rico,OAI Follow Up,NAI
+195,Puerto Rico,Consumer Complaint Follow Up,NAI
+657,Puerto Rico,For-Cause,NAI
+565,Rhode Island,Routine Inspection,OAI
+48,Rhode Island,OAI Follow Up,OAI
+17,Rhode Island,For-Cause,OAI
+5369,Rhode Island,Routine Inspection,VAI
+3087,Rhode Island,OAI Follow Up,VAI
+120,Rhode Island,Consumer Complaint Follow Up,VAI
+634,Rhode Island,For-Cause,VAI
+7409,Rhode Island,Routine Inspection,NAI
+1611,Rhode Island,OAI Follow Up,NAI
+5,Rhode Island,Consumer Complaint Follow Up,NAI
+424,Rhode Island,For-Cause,NAI
+1464,South Carolina,Routine Inspection,OAI
+99,South Carolina,OAI Follow Up,OAI
+117,South Carolina,For-Cause,OAI
+33923,South Carolina,Routine Inspection,VAI
+13022,South Carolina,OAI Follow Up,VAI
+3467,South Carolina,Consumer Complaint Follow Up,VAI
+8142,South Carolina,For-Cause,VAI
+24649,South Carolina,Routine Inspection,NAI
+5146,South Carolina,OAI Follow Up,NAI
+28,South Carolina,Consumer Complaint Follow Up,NAI
+5370,South Carolina,For-Cause,NAI
+528,South Dakota,Routine Inspection,OAI
+24,South Dakota,OAI Follow Up,OAI
+50,South Dakota,For-Cause,OAI
+5414,South Dakota,Routine Inspection,VAI
+1863,South Dakota,OAI Follow Up,VAI
+1082,South Dakota,Consumer Complaint Follow Up,VAI
+1162,South Dakota,For-Cause,VAI
+4776,South Dakota,Routine Inspection,NAI
+682,South Dakota,OAI Follow Up,NAI
+20,South Dakota,Consumer Complaint Follow Up,NAI
+655,South Dakota,For-Cause,NAI
+2800,Tennessee,Routine Inspection,OAI
+256,Tennessee,OAI Follow Up,OAI
+185,Tennessee,For-Cause,OAI
+40696,Tennessee,Routine Inspection,VAI
+18846,Tennessee,OAI Follow Up,VAI
+6302,Tennessee,Consumer Complaint Follow Up,VAI
+8798,Tennessee,For-Cause,VAI
+36462,Tennessee,Routine Inspection,NAI
+8995,Tennessee,OAI Follow Up,NAI
+46,Tennessee,Consumer Complaint Follow Up,NAI
+7139,Tennessee,For-Cause,NAI
+10013,Texas,Routine Inspection,OAI
+322,Texas,OAI Follow Up,OAI
+1,Texas,Consumer Complaint Follow Up,OAI
+19,Texas,For-Cause,OAI
+170031,Texas,Routine Inspection,VAI
+80278,Texas,OAI Follow Up,VAI
+4371,Texas,Consumer Complaint Follow Up,VAI
+34914,Texas,For-Cause,VAI
+134617,Texas,Routine Inspection,NAI
+20374,Texas,OAI Follow Up,NAI
+47,Texas,Consumer Complaint Follow Up,NAI
+15822,Texas,For-Cause,NAI
+2458,Utah,Routine Inspection,OAI
+274,Utah,OAI Follow Up,OAI
+1,Utah,Consumer Complaint Follow Up,OAI
+166,Utah,For-Cause,OAI
+25163,Utah,Routine Inspection,VAI
+14955,Utah,OAI Follow Up,VAI
+2057,Utah,Consumer Complaint Follow Up,VAI
+3631,Utah,For-Cause,VAI
+29634,Utah,Routine Inspection,NAI
+7946,Utah,OAI Follow Up,NAI
+39,Utah,Consumer Complaint Follow Up,NAI
+3119,Utah,For-Cause,NAI
+633,Vermont,Routine Inspection,OAI
+36,Vermont,OAI Follow Up,OAI
+14,Vermont,For-Cause,OAI
+3539,Vermont,Routine Inspection,VAI
+552,Vermont,OAI Follow Up,VAI
+401,Vermont,Consumer Complaint Follow Up,VAI
+339,Vermont,For-Cause,VAI
+4421,Vermont,Routine Inspection,NAI
+354,Vermont,OAI Follow Up,NAI
+1,Vermont,Consumer Complaint Follow Up,NAI
+271,Vermont,For-Cause,NAI
+3447,Virginia,Routine Inspection,OAI
+353,Virginia,OAI Follow Up,OAI
+452,Virginia,For-Cause,OAI
+50812,Virginia,Routine Inspection,VAI
+21467,Virginia,OAI Follow Up,VAI
+3319,Virginia,Consumer Complaint Follow Up,VAI
+19380,Virginia,For-Cause,VAI
+62050,Virginia,Routine Inspection,NAI
+13222,Virginia,OAI Follow Up,NAI
+37,Virginia,Consumer Complaint Follow Up,NAI
+18753,Virginia,For-Cause,NAI
+4458,Washington,Routine Inspection,OAI
+267,Washington,OAI Follow Up,OAI
+400,Washington,For-Cause,OAI
+60199,Washington,Routine Inspection,VAI
+19696,Washington,OAI Follow Up,VAI
+2381,Washington,Consumer Complaint Follow Up,VAI
+12856,Washington,For-Cause,VAI
+67003,Washington,Routine Inspection,NAI
+10136,Washington,OAI Follow Up,NAI
+65,Washington,Consumer Complaint Follow Up,NAI
+11609,Washington,For-Cause,NAI
+1371,West Virginia,Routine Inspection,OAI
+26,West Virginia,OAI Follow Up,OAI
+56,West Virginia,For-Cause,OAI
+8077,West Virginia,Routine Inspection,VAI
+2285,West Virginia,OAI Follow Up,VAI
+1596,West Virginia,Consumer Complaint Follow Up,VAI
+1360,West Virginia,For-Cause,VAI
+7208,West Virginia,Routine Inspection,NAI
+1114,West Virginia,OAI Follow Up,NAI
+12,West Virginia,Consumer Complaint Follow Up,NAI
+1030,West Virginia,For-Cause,NAI
+4094,Wisconsin,Routine Inspection,OAI
+63,Wisconsin,OAI Follow Up,OAI
+1,Wisconsin,Consumer Complaint Follow Up,OAI
+80,Wisconsin,For-Cause,OAI
+44835,Wisconsin,Routine Inspection,VAI
+8373,Wisconsin,OAI Follow Up,VAI
+2396,Wisconsin,Consumer Complaint Follow Up,VAI
+3711,Wisconsin,For-Cause,VAI
+55041,Wisconsin,Routine Inspection,NAI
+5862,Wisconsin,OAI Follow Up,NAI
+78,Wisconsin,Consumer Complaint Follow Up,NAI
+3123,Wisconsin,For-Cause,NAI
+317,Wyoming,Routine Inspection,OAI
+11,Wyoming,OAI Follow Up,OAI
+37,Wyoming,For-Cause,OAI
+3462,Wyoming,Routine Inspection,VAI
+1817,Wyoming,OAI Follow Up,VAI
+801,Wyoming,Consumer Complaint Follow Up,VAI
+1144,Wyoming,For-Cause,VAI
+3511,Wyoming,Routine Inspection,NAI
+713,Wyoming,OAI Follow Up,NAI
+8,Wyoming,Consumer Complaint Follow Up,NAI
+729,Wyoming,For-Cause,NAI

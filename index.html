@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quick visualization prototype</title>
+    <meta charset="UTF-8">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dc.css"/>
+</head>
+<body>
+<div class="container">
+
+    <div id="us-chart">
+        <strong>Number of Inspections</strong>
+        <a class="reset" href="javascript:usChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+        <span class="reset" style="display: none;"> | Current filter: <span class="filter"></span></span>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div id="loan-type-chart">
+        <strong>By Inspection Type</strong>
+        <a class="reset" href="javascript:loanTypeChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div id="loan-purpose-chart">
+        <strong>By Inspection Outcome</strong> 
+        <a class="reset" href="javascript:loanPurposeChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div>
+        <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="d3.js"></script>
+<script type="text/javascript" src="crossfilter.js"></script>
+<script type="text/javascript" src="dc.js"></script>
+<script type="text/javascript">
+    var numberFormat = d3.format(".0f");
+    var usChart = dc.geoChoroplethChart("#us-chart");
+    var loanTypeChart = dc.pieChart("#loan-type-chart");
+    var loanPurposeChart = dc.pieChart("#loan-purpose-chart");
+
+    d3.csv("hmda_lar_2015.csv", function (csv) {
+        var data = crossfilter(csv);
+        var states = data.dimension(function (d) {
+            return d["state_name"];
+        });
+        var stateLoanSum = states.group().reduceSum(function(d) { return d.count;});
+
+        var loanType = data.dimension(function (d) {
+            return d["loan_type_name"];
+        });
+        var statsByloanType = loanType.group().reduceSum(function(d) { return d.count;});
+
+        var loanPurpose = data.dimension(function (d) {
+            return d["loan_purpose_name"];
+        });
+        var statsByloanPurpose = loanPurpose.group().reduceSum(function(d) { return d.count;});
+        
+        d3.json("us-states.json", function (statesJson) {
+            usChart.width(990)
+                    .height(500)
+                    .dimension(states)
+                    .group(stateLoanSum)
+                    .colors(d3.scale.quantize().range(["#fff7ec","#fee8c8","#fdd49e","#fdbb84","#fc8d59","#ef6548","#d7301f","#b30000","#7f0000"]))
+                    .colorDomain([0, 800000])
+                    .colorCalculator(function (d) { return d ? usChart.colors()(d) : '#ccc'; })
+                    .overlayGeoJson(statesJson.features, "state", function (d) {
+                        return d.properties.name;
+                    })
+                    .title(function (d) {
+                        return "State: " + d.key + "\nTotal Firms Inspected: " + numberFormat(d.value ? d.value : 0) + "";
+                    });
+            loanTypeChart.width(360)
+                  .height(360)
+                  .radius(160)
+                  .innerRadius(80)
+                  .dimension(loanType)
+                  .group(statsByloanType)
+                  .renderLabel(true);
+       
+            loanPurposeChart.width(360)
+                  .height(360)
+                  .radius(160)
+                  .dimension(loanPurpose)
+                  .group(statsByloanPurpose)
+                  .renderLabel(true);
+            dc.renderAll();
+        });
+      });
+</script>
+
+</body>
+</html>
