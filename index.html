@@ -18,13 +18,13 @@
     <div class="clearfix"></div>
     <div id="type-chart">
         <strong>By Inspection Type</strong>
-        <a class="reset" href="javascript:loanTypeChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+        <a class="reset" href="javascript:inspTypeChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
         <div class="clearfix"></div>
     </div>
     <div class="clearfix"></div>
     <div id="outcome-chart">
         <strong>By Inspection Outcome</strong> 
-        <a class="reset" href="javascript:loanPurposeChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+        <a class="reset" href="javascript:inspOutcomeChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
         <div class="clearfix"></div>
     </div>
     <div class="clearfix"></div>
@@ -82,7 +82,7 @@
                   .group(statsByinspType)
                   .renderLabel(true);
        
-            outcomeChart.width(360)
+            inspOutcomeChart.width(360)
                   .height(360)
                   .radius(160)
                   .dimension(inspOutcome)
