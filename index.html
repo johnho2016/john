@@ -16,13 +16,13 @@
         <div class="clearfix"></div>
     </div>
     <div class="clearfix"></div>
-    <div id="loan-type-chart">
+    <div id="type-chart">
         <strong>By Inspection Type</strong>
         <a class="reset" href="javascript:loanTypeChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
         <div class="clearfix"></div>
     </div>
     <div class="clearfix"></div>
-    <div id="loan-purpose-chart">
+    <div id="outcome-chart">
         <strong>By Inspection Outcome</strong> 
         <a class="reset" href="javascript:loanPurposeChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
         <div class="clearfix"></div>
@@ -40,31 +40,31 @@
 <script type="text/javascript">
     var numberFormat = d3.format(".0f");
     var usChart = dc.geoChoroplethChart("#us-chart");
-    var loanTypeChart = dc.pieChart("#loan-type-chart");
-    var loanPurposeChart = dc.pieChart("#loan-purpose-chart");
+    var inspTypeChart = dc.pieChart("#type-chart");
+    var inspOutcomeChart = dc.pieChart("#outcome-chart");
 
-    d3.csv("hmda_lar_2015.csv", function (csv) {
+    d3.csv("inspections.csv", function (csv) {
         var data = crossfilter(csv);
         var states = data.dimension(function (d) {
             return d["state_name"];
         });
-        var stateLoanSum = states.group().reduceSum(function(d) { return d.count;});
+        var stateSum = states.group().reduceSum(function(d) { return d.count;});
 
-        var loanType = data.dimension(function (d) {
-            return d["loan_type_name"];
+        var inspType = data.dimension(function (d) {
+            return d["type_name"];
         });
-        var statsByloanType = loanType.group().reduceSum(function(d) { return d.count;});
+        var statsByinspType = inspType.group().reduceSum(function(d) { return d.count;});
 
-        var loanPurpose = data.dimension(function (d) {
-            return d["loan_purpose_name"];
+        var inspOutcome = data.dimension(function (d) {
+            return d["outcome_name"];
         });
-        var statsByloanPurpose = loanPurpose.group().reduceSum(function(d) { return d.count;});
+        var statsByinspOutcome = inspOutcome.group().reduceSum(function(d) { return d.count;});
         
         d3.json("us-states.json", function (statesJson) {
             usChart.width(990)
                     .height(500)
                     .dimension(states)
-                    .group(stateLoanSum)
+                    .group(stateSum)
                     .colors(d3.scale.quantize().range(["#fff7ec","#fee8c8","#fdd49e","#fdbb84","#fc8d59","#ef6548","#d7301f","#b30000","#7f0000"]))
                     .colorDomain([0, 800000])
                     .colorCalculator(function (d) { return d ? usChart.colors()(d) : '#ccc'; })
@@ -74,19 +74,19 @@
                     .title(function (d) {
                         return "State: " + d.key + "\nTotal Firms Inspected: " + numberFormat(d.value ? d.value : 0) + "";
                     });
-            loanTypeChart.width(360)
+            inspTypeChart.width(360)
                   .height(360)
                   .radius(160)
                   .innerRadius(80)
-                  .dimension(loanType)
-                  .group(statsByloanType)
+                  .dimension(inspType)
+                  .group(statsByinspType)
                   .renderLabel(true);
        
-            loanPurposeChart.width(360)
+            outcomeChart.width(360)
                   .height(360)
                   .radius(160)
-                  .dimension(loanPurpose)
-                  .group(statsByloanPurpose)
+                  .dimension(inspOutcome)
+                  .group(statsByinspOutcome)
                   .renderLabel(true);
             dc.renderAll();
         });
