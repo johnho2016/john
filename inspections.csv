@@ -1,4 +1,4 @@
-count,state_name,loan_type_name,loan_purpose_name
+count,state_name,type_name,outcome_name
 1465,Alabama,Routine Inspection,OAI
 141,Alabama,OAI Follow Up,OAI
 1,Alabama,Consumer Complaint Follow Up,OAI
